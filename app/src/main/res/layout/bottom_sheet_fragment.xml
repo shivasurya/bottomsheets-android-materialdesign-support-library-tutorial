@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/elon_musk"
+        android:scaleType="centerCrop"
+        android:layout_height="300dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:id="@+id/name"
+        android:padding="16dp"
+        android:background="@android:color/holo_purple"/>
+
+
+</LinearLayout>
